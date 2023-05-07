@@ -19,7 +19,7 @@ const paths = {
 	css: {
 		src: './src/css/*.css', // target all css src files
 		destination: './src/css', // destination for compiled css files
-		distribution: './public/css', // destination for distribution ready css files
+		distribution: './public', // destination for distribution ready css files
 	},
 	html: {
 		src: './src/index.html', // target index.html

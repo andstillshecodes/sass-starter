@@ -45,14 +45,14 @@ Remember not to make any changes to the `app/css` folder, as these will be overw
 
 1. Create a free account with [vercel.com](https://vercel.com)
 1. Import your project at [vercel.com/new](https://vercel.com/new)
-1. Configure your project
-   **Framework Preset:** `Other`
-   **Root Directory:** `./`
-1. Add build and output settings:
-   **Build Command:** `gulp build`
-   Resource: [Vercel: Configuring a Build](https://vercel.com/docsconcepts/deployments/configure-a-build)
-   **Output Directory:** `public`
-   **Install Command:** `npm install`
+1. Configure your project <br />
+   **Framework Preset:** `Other`<br />
+   **Root Directory:** `./` <br />
+1. Add build and output settings:<br />
+   **Build Command:** `gulp build` <br />
+   Resource: [Vercel: Configuring a Build](https://vercel.com/docsconcepts/deployments/configure-a-build) <br />
+   **Output Directory:** `public`<br />
+   **Install Command:** `npm install`<br />
 1. Click "Deploy" and wait for the initial build and deployment to complete.
 
 ### Opinionated Additions

@@ -36,3 +36,9 @@ Run `gulp --tasks` to see this breakdown in your own terminal.
 ### The Distribution Folder
 
 `gulp build` will create a `public` folder and a production ready build inside of it containing your minified HTML and CSS output.
+
+### Opinionated Additions
+
+- This template includes the [modern-normalize](https://github.com/sindresorhus/modern-normalize) css reset CDN. If you do not wish to use this reset, just remove it from `src/index.html`.
+  <br />
+- This template makes use of `.scss` files, but it also supports `.sass` out of the box. If you wish to use `.sass`, just update the file extensions.

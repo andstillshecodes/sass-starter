@@ -43,7 +43,7 @@ Remember not to make any changes to the `app/css` folder, as these will be overw
 
 #### Vercel Deployment
 
-1. Create a free account with [vercel.com](https://vercel.com/new)
+1. Create a free account with [vercel.com](https://vercel.com)
 1. Import your project at [vercel.com/new](https://vercel.com/new)
 1. Configure your project
    **Framework Preset:** `Other`

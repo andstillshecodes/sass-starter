@@ -22,8 +22,8 @@ const paths = {
 		distribution: './public/css', // destination for distribution ready css files
 	},
 	html: {
-		src: './src/index.html',
-		distribution: './public',
+		src: './src/index.html', // target index.html
+		distribution: './public', // destination for distribution ready html files
 	},
 	sass: {
 		src: './src/sass/**/*.+(scss|sass)', // target all sass source sass files
@@ -35,7 +35,7 @@ function compileCss() {
 		.pipe(sourcemaps.init()) // initialize sourcemaps for advanced debugging
 		.pipe(sass().on('error', sass.logError)) // use sass function to compile to css
 		.pipe(postcss([autoprefixer()])) // add vendor prefixes
-		.pipe(sourcemaps.write('./')) // sourecemap output locationr relative to css output
+		.pipe(sourcemaps.write('./')) // sourecemap output location relative to css output
 		.pipe(dest(paths.css.destination)) // pipe css output to a destination folder
 		.pipe(browserSync.stream()) // auto inject css changes into the browser
 }
@@ -73,7 +73,7 @@ function develop() {
 		},
 	})
 
-	// watch src files, recompile and sync browser on change
+	// watch src files, run functions on change
 	watch(paths.sass.src, compileCss)
 	watch(paths.html.src, reloadHtml)
 }

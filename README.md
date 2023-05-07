@@ -50,6 +50,7 @@ Remember not to make any changes to the `app/css` folder, as these will be overw
    **Root Directory:** `./`
 1. Add build and output settings:
    **Build Command:** `gulp build`
+   Resource: [Vercel: Configuring a Build](https://vercel.com/docsconcepts/deployments/configure-a-build)
    **Output Directory:** `public`
    **Install Command:** `npm install`
 1. Click "Deploy" and wait for the initial build and deployment to complete.

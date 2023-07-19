@@ -25,7 +25,7 @@ Tasks for sass-starter
     └── minifyHtml
 ```
 
-Run `gulp --tasks` to see this breakdown in your own terminal.
+Run `gulp --tasks` to see this breakdown in your own shell.
 
 `gulpfile.js` is well commented to explain what each function does and it includes links to the official docs that were used to build this template.
 
